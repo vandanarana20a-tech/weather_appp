@@ -1,0 +1,123 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+body {
+   /* background: linear-gradient(-178deg, white, black); */
+   background-image: url(starry-night-design.jpg);
+
+}
+
+.card {
+   margin: 65px auto;
+   background: linear-gradient(118deg, #ff4646, #166cff);
+   display: flex;
+   height: 400px;
+   width: 400px;
+   border-radius: 12px;
+   flex-direction: column;
+}
+
+.head {
+   display: block;
+   margin-top: 3px;
+   text-align: center;
+   color: #fff;
+
+}
+
+.container {
+   display: flex;
+   flex-direction: column;
+   margin: 20px auto;
+
+
+}
+
+.container input {
+   width: 280px;
+   border-radius: 26px;
+   height: 34px;
+   text-align: center;
+   border: 0px solid black;
+   background: #ebfffc;
+   color: #555;
+   outline: none;
+   border: none;
+
+}
+
+.container button {
+   background: transparent;
+   margin-top: -35px;
+   text-align: center;
+   display: flex;
+   margin-left: 250px;
+   padding: 2px 2px 2px 2px;
+   border: 0px;
+   border-radius: 12px;
+   height: 36px;
+   width: 43px;
+   cursor: pointer;
+   align-items: center;
+}
+
+
+.weather {
+   margin: 10px auto;
+   color: #ebfffc;
+   font-weight: 800;
+}
+
+.weather-icon {
+   width: 115px;
+   height: 94px;
+   background-size: cover;
+   mix-blend-mode: multiply;
+
+}
+
+
+.temp {
+
+   margin: 0px auto;
+   font-size: 40px;
+}
+
+.details {
+   display: flex;
+   align-items: center;
+   margin-top: 66px;
+   justify-content: space-between;
+   padding: 0px 50px;
+
+}
+
+.city {
+   text-align: center;
+   color: #ebfffc;
+}
+
+.col img {
+   height: 60px;
+   width: 80px;
+   mix-blend-mode: multiply;
+}
+
+.col p {
+   text-align: center;
+   font-weight: bolder;
+   color: #ebfffc;
+   margin-top: 7px;
+   margin-right: 1px;
+
+}
+
+.col {
+   display: flex;
+
+
+
+}
